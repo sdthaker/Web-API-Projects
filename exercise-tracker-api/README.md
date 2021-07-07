@@ -19,7 +19,7 @@ GET `/api/users/:_id/logs?[from][&to][&limit]` | Return full log of a user's exe
 * `[{"_id":"5fda1383bb165d0493ae9427","username":"testUser","log":[{"description":"testExercise","duration":15,"date":"2020-12-16T14:04:10.761Z"}],"count":1}]`
 
 ## How to use:
-Be sure to change the argument for mongoose in `server.js` according to your own MongoDB server. It's also possible to just create a `.env` file and store this information there in order to keep it hidden and safe. Then, just run on terminal:
+Be sure to change the argument for mongoose.connect() in `server.js` according to your own MongoDB server. It's also possible to just create a `.env` file and store this information there in order to keep it hidden and safe. Then, just run on terminal:
 ```
 npm install
 npm start
