@@ -5,7 +5,6 @@ const app = express();
 const bodyParser = require('body-parser')
 const mongoose = require("mongoose");
 
-//'mongodb+srv://sdthaker:St14071996@cluster1.lxvkb.mongodb.net/shortURL?retryWrites=true&w=majority'
 mongoose.connect('mongodb+srv://sdthaker:Abcd123456@cluster1.lxvkb.mongodb.net/shortURL?retryWrites=true&w=majority');
 const { Schema } = mongoose;
 
