@@ -1,19 +1,31 @@
 
-# API Project: Timestamp Microservice for FCC
+# Small-ify, a URL Shortening API
 
-### User stories:
+### Built for all of your URL shortening needs.
 
-1. The API endpoint is `GET [project_url]/api/timestamp/:date_string?`
-2. A date string is valid if can be successfully parsed by `new Date(date_string)` (JS) . Note that the unix timestamp needs to be an **integer** (not a string) specifying **milliseconds**. In our test we will use date strings compliant with ISO-8601 (e.g. `"2016-11-20"`) because this will ensure an UTC timestamp.
-3. If the date string is **empty** it should be equivalent to trigger `new Date()`, i.e. the service uses the current timestamp.
-4. If the date string is **valid** the api returns a JSON having the structure 
-`{"unix": <date.getTime()>, "utc" : <date.toUTCString()> }`
-e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
-5. If the date string is **invalid** the api returns a JSON having the structure `{"error" : "Invalid Date" }`.
+> Pass a URL as a URL parameter and you'll receive a shortened URL in the JSON response.
 
-#### Example usage:
-* https://curse-arrow.glitch.me/api/timestamp/2015-12-25
-* https://curse-arrow.glitch.me/api/timestamp/1451001600000
+> If you pass an invalid URL that doesn't follow the valid `http://www.example.com` format, the JSON response will contain an error instead.
 
-#### Example output:
-* {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
+> When you visit the shortened URL, you'll be redirected to your original link.
+
+### Example Creation:
+
+[https://small-ify.herokuapp.com/api/http://www.noodles.com/](https://small-ify.herokuapp.com/api/http://www.noodles.com/)
+
+### Example Output:
+
+The following JSON response will be returned.
+
+```
+{
+  url: "http://www.noodles.com/",
+  shortUrl: "https://small-ify.herokuapp.com/9928"
+}
+```
+
+### Example Usage:
+
+[https://small-ify.herokuapp.com/9928](https://small-ify.herokuapp.com/9928)
+
+Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.com/challenges/url-shortener-microservice](https://www.freecodecamp.com/challenges/url-shortener-microservice)
