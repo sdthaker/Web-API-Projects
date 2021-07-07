@@ -1,5 +1,5 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=sdthaker.visitor-badge)
-![Glitch Badge](https://badge.glitch.me/https://url-shortener-fccapi.glitch.me)
+![Glitch Badge](https://badge.glitch.me/url-shortener-fccapi.glitch.me)
 # URL Shortening API
 
 ### Built for all of your URL shortening needs.
