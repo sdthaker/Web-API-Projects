@@ -4,6 +4,6 @@
 # WEB-APIs
 freeCodeCamp API and Microservices certification projects: https://www.freecodecamp.org/learn/apis-and-microservices/#apis-and-microservices-projects
 
-Certification:
+## Certification:
 
-<img src="api&ms-cert.jpg" width=750>
+<img src="api&ms-cert.jpg" width=500>
