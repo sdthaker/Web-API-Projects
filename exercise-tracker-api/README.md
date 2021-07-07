@@ -24,3 +24,4 @@ Be sure to change the argument for `mongoose.connect()` in `server.js` according
 npm install
 npm start
 ```
+Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/exercise-tracker](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/exercise-tracker)
