@@ -19,7 +19,8 @@ The following JSON response will be returned.
 ```
 {
 "original_url":"http://google.com",
-"short_url":62460}
+"short_url":62460
+}
 ```
 
 ### Example Usage:
