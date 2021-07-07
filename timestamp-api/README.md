@@ -37,4 +37,4 @@
 * Node.js
 * Express.js
 
-Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.com/challenges/timestamp-microservice](https://www.freecodecamp.com/challenges/timestamp-microservice)
+Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
