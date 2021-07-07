@@ -19,12 +19,12 @@ The following JSON response will be returned.
 ```
 {
 "original_url":"http://google.com",
-"short_url":62460
+"short_url":6329
 }
 ```
 
 ### Example Usage:
 
-[https://url-shortener-fccapi.glitch.me/api/shorturl/62460](https://url-shortener-fccapi.glitch.me/api/shorturl/62460)
+[https://url-shortener-fccapi.glitch.me/api/shorturl/6329](https://url-shortener-fccapi.glitch.me/api/shorturl/6329)
 
 Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)
