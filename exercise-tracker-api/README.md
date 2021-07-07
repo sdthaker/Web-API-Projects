@@ -12,7 +12,7 @@ Endpoints | Description | Params
 POST `/api/users` | Create a new user | username*, _id (via body)
 GET `/api/users` | Return all registered users | n/a
 POST `/api/users/:_id/exercises` | Add an exercise for a specific user & respond with a json object with all details added | userId*, description*, duration*, date (via body)
-GET `/api/users/:_id/logs?[from][&to][&limit]` | Return full log of a user's exercises along with the count of exercises. The optional params, from, to & limit can be queried to get specific logs of exercises for a given user | userId*, from, to, limit (via query)
+GET `/api/users/:_id/logs?[from][&to][&limit]` | Return full log of a user's exercises along with the count of exercises. The optional params, `from`, `to` & `limit` can be queried to get specific logs of exercises for a given user | userId*, from, to, limit (via query)
 
 #### Example output:
 * `{"_id":"5fda1383bb165d0493ae9427","username":"testUser"}`
