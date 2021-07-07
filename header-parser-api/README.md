@@ -8,7 +8,7 @@
 
 [https://header-parser-apifcc.glitch.me](https://header-parser-apifcc.glitch.me)
 
-![Glitch Badge] (https://header-parser-apifcc.glitch.me)
+![Glitch Badge] (https://badge.glitch.me/header-parser-apifcc)
 
 ### Example Output:
 
