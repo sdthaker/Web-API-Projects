@@ -9,7 +9,7 @@ A little bit of what's inside the project:
 
 Endpoints | Description | Params
 ----------|-------------|-------------
-POST `/api/users` | Create a new user | username* (via body)
+POST `/api/users` | Create a new user | username, _id
 GET `/api/exercises/users` | Return all registered users | n/a
 POST `/api/exercises/add` | Add an exercise for a specific user | userId*, description*, duration*, date (via body)
 GET `/api/exercises/log` | Return the log of a user's exercises | userId*, from, to, limit (via query)
