@@ -1,4 +1,4 @@
-# Timestamp API (https://timestamp-fccapi.glitch.me)
+# Timestamp API
 
 ### User Stories:
 
