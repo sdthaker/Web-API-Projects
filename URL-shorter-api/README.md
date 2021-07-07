@@ -11,21 +11,19 @@
 
 ### Example Creation:
 
-[https://small-ify.herokuapp.com/api/http://www.noodles.com/](https://small-ify.herokuapp.com/api/http://www.noodles.com/)
-
+[https://url-shorter-microsrc.glitch.me](https://url-shorter-microsrc.glitch.me)
 ### Example Output:
 
 The following JSON response will be returned.
 
 ```
 {
-  url: "http://www.noodles.com/",
-  shortUrl: "https://small-ify.herokuapp.com/9928"
-}
+"original_url":"http://google.com",
+"short_url":62460}
 ```
 
 ### Example Usage:
 
-[https://small-ify.herokuapp.com/9928](https://small-ify.herokuapp.com/9928)
+[https://url-shorter-microsrc.glitch.me/api/shorturl/62460](https://url-shorter-microsrc.glitch.me/api/shorturl/62460)
 
-Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.com/challenges/url-shortener-microservice](https://www.freecodecamp.com/challenges/url-shortener-microservice)
+Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)
