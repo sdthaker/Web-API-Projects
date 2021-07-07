@@ -8,8 +8,6 @@
 
 [https://header-parser-apifcc.glitch.me](https://header-parser-apifcc.glitch.me)
 
-[![Run on glitch.me](https://header-parser-apifcc.glitch.me)
-
 ### Example Output:
 
 ```
