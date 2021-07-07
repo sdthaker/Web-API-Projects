@@ -11,7 +11,7 @@
 
 ### Example Creation:
 
-[https://url-shorter-microsrc.glitch.me](https://url-shorter-microsrc.glitch.me)
+[https://url-shortener-fccapi.glitch.me](https://url-shortener-fccapi.glitch.me)
 ### Example Output:
 
 The following JSON response will be returned.
@@ -25,6 +25,6 @@ The following JSON response will be returned.
 
 ### Example Usage:
 
-[https://url-shorter-microsrc.glitch.me/api/shorturl/62460](https://url-shorter-microsrc.glitch.me/api/shorturl/62460)
+[https://url-shortener-fccapi.glitch.me/api/shorturl/62460](https://url-shortener-fccapi.glitch.me/api/shorturl/62460)
 
 Developed for a Free Code Camp project. Original project idea link: [https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)
