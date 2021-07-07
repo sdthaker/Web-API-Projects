@@ -1,5 +1,5 @@
 
-# Small-ify, a URL Shortening API
+# URL Shortening API
 
 ### Built for all of your URL shortening needs.
 
