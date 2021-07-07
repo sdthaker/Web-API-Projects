@@ -9,10 +9,10 @@ A little bit of what's inside the project:
 
 Endpoints | Description | Params
 ----------|-------------|-------------
-POST `/api/users` | Create a new user | username, _id
-GET `/api/exercises/users` | Return all registered users | n/a
-POST `/api/exercises/add` | Add an exercise for a specific user | userId*, description*, duration*, date (via body)
-GET `/api/exercises/log` | Return the log of a user's exercises | userId*, from, to, limit (via query)
+POST `/api/users` | Create a new user | username*, _id (via body)
+GET `/api/users` | Return all registered users | n/a
+POST `/api/users/:_id/exercises` | Add an exercise for a specific user & respond with a json object with all details added | userId*, description*, duration*, date (via body)
+GET `/api/users/:_id/logs?[from][&to][&limit]` | Return full log of a user's exercises along with the count of exercises | userId*, from, to, limit (via query)
 
 #### Example output:
 * `{"_id":"5fda1383bb165d0493ae9427","username":"testUser"}`
