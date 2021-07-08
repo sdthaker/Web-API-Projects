@@ -146,8 +146,9 @@ app.post('/api/users/:_id/exercises', (req, res) => {
     .catch(err => {return console.log(err)})
   })
 
+//?:from?:to?:limit?
 
-  app.get('/api/users/:_id/logs?:from?:to?:limit?', (req, res) => {
+  app.get('/api/users/:_id/logs', (req, res) => {
 
     if(req.params._id && !req.query.from && !req.query.to && !req.query.limit) {
       userModel.findById(req.params._id).exec()
