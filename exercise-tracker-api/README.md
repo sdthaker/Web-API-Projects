@@ -4,7 +4,7 @@
 ## Technologies
 A little bit of what's inside the project:
 - **Node.js** and **Express** to create the server and handle routes, requests and responses.
-- **Mongoose** to persist all the data.
+- **MongoDB** and **Mongoose** to persist all the data.
 
 ## Endpoints:
 
