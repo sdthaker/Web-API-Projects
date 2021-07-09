@@ -7,7 +7,7 @@ const dns = require('dns');
 const http = require('http')
 const mongoose = require("mongoose");
 
-mongoose.connect('mongodb+srv://sdthaker:Abcd123456@cluster1.lxvkb.mongodb.net/shortURL?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGO_URI,{useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false, useUnifiedTopology: true});
 const { Schema } = mongoose;
 
 const urlSchema = new Schema({
