@@ -3,14 +3,12 @@
 # FCC API Basejump: File Metadata Microservice
 ### User Stories
 > 1. I can submit a FormData object that includes a file upload.
-> 2. When I submit something, I will receive the file size in bytes within the JSON response.
-
-Hint: You may want to use this package: [Multer](https://www.npmjs.com/package/multer "Multer")
+> 2. When I upload a file, I will receive the file size in bytes, file name & file type within the JSON response.
 
 ### Example Usage
-Upload your file from the UI at the root.
+Upload your file from your local computer.
 
-[File Metadata Microservice](https://myfile-hemakshis.herokuapp.com)
+[https://file-meta-data-fccapi.glitch.me](https://file-meta-data-fccapi.glitch.me)
 
 ### Example Output
 A JSON output containing all the file details will be displayed in the below URL.
