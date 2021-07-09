@@ -16,9 +16,7 @@ Upload your file from your local computer.
 [https://file-meta-data-fccapi.glitch.me](https://file-meta-data-fccapi.glitch.me)
 
 ### Example Output
-A JSON output containing all the file details will be displayed in the below URL.
-
-`https://myfile-hemakshis.herokuapp.com/api/upload`
+A JSON output containing all the file details will be displayed.
 
 `{"name":"tenant-insurance.pdf","type":"application/pdf","size":357077}`
 
