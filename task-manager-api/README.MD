@@ -1,5 +1,9 @@
+![visitors](https://visitor-badge.glitch.me/badge?page_id=sdthaker.visitor-badge)
 
 # Task Manager API
+
+## Description
+A front-end + back-end task manager api that peforms basic CRUD operations on tasks that are added using mongoDB
 
 ## Project Setup
 
