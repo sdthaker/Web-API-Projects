@@ -1,6 +1,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=sdthaker.visitor-badge)
 
-# FCC API Basejump: File Metadata Microservice
+# File Metadata API
+
 ### User Stories
 > 1. I can submit a FormData object that includes a file upload.
 > 2. When I upload a file, I will receive the file size in bytes, file name & file type within the JSON response.
