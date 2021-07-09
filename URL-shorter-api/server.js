@@ -3,6 +3,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser')
+const dns = require('dns');
+const http = require('http')
 const mongoose = require("mongoose");
 
 mongoose.connect('mongodb+srv://sdthaker:Abcd123456@cluster1.lxvkb.mongodb.net/shortURL?retryWrites=true&w=majority');
@@ -48,39 +50,50 @@ function isValidHttpUrl(string) {
   return url.protocol === "http:" || url.protocol === "https:";
 }
 
-const postToDB = (rand, passedURL) => {
+
+const postToDB = (rand, passedURL, done) => {
+  urlModel.findOne({ randNum: rand }, (err, numFound) => {
+    if (err) return console.error(err)
+
     const micSer = new urlModel({
       randNum: rand,
       domain: passedURL
     })
 
+    rand = numFound
     micSer.save((err, data) => {
       if (err) return console.error(err)
     })
+  })
 };
 
-//repond with a json obj + post the data into mongoDB database
+let urll = ''
+
 app.post('/api/shorturl', (req, res) => {
 
+  //repond with a json obj + post the data into mongoDB
   let rand = getRandomInt(100000);
-  
+  postToDB(rand, req.body.url);
+   const ur = {original_url: req.body.url, short_url: rand}
+   urll = ur.original_url;
+
   if (!isValidHttpUrl(req.body.url)) {
     res.json({ error: "Invalid URL" })
   }
   else{
-    postToDB(rand, req.body.url);
     res.json({ original_url: req.body.url, short_url: rand })
   }
 })
 
-//respond to client's request by redirecting their browser to the provided shortened url 
 app.get(`/api/shorturl/:num`, (req, res) => {
-  urlModel.findOne({ randNum: req.params.num }, (err, numFound) => {
-    if(!numFound.domain) res.json({error: 'ShortUrl number is incorrect'})
-    if(err) return console.error(err)
-     //res.writeHead(301, {Location: `${numFound.domain}`})
-     //res.end();
-    res.redirect(numFound.domain)
+  urlModel.findOne({ randNum: req.params.num })
+  .exec()
+  .then(result => {
+    if(!result) res.json({error: 'ShortUrl number is incorrect'})
+    res.redirect(result.domain)
+  })
+  .catch(err => {
+    return console.error(err)
   })
 })
 
