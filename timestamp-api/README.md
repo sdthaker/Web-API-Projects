@@ -21,7 +21,7 @@
 "utc":"Fri, 25 Dec 2015 00:00:00 GMT"
 }
 ```
-
+### Example Usage:
 [https://timestamp-api-bq.herokuapp.com/api/1451001600000](https://timestamp-api-bq.herokuapp.com/api/1451001600000)
 
 ### Example Output:
