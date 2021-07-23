@@ -1,4 +1,4 @@
-## Brief overview of the project:
+## Brief overview of technologies used to build the project:
 1. Passport.js to authenticate users.
 2. MongoDB to add a users' data like username and password to the cloud.
 3. bCrypt.js to encrypt a user's password.
