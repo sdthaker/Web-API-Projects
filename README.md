@@ -1,6 +1,6 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=sdthaker.visitor-badge)
 
-# WEB-APIs
+# Web API Projects
 freeCodeCamp API and Microservices certification projects: [APIs and Microservices](https://www.freecodecamp.org/learn/apis-and-microservices/#apis-and-microservices-projects)
 
 ## Technologies used:
