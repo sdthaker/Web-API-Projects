@@ -12,7 +12,7 @@
 		"express": "^4.17.1",
 		"mongodb": "^3.6.9",
 		"mongoose": "^5.13.2",
-		"npm": "^7.19.1"
+		"npm": "^7.20.0"
 	},
 	"repository": {
 		"url": "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker"
